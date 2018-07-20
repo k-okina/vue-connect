@@ -1,6 +1,6 @@
 {
   "name": "vue-connect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/connect/index.js",
   "description": "Vue 2.x connect.",
   "repository": {
@@ -25,10 +25,10 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
-    "lint-staged": "^7.2.0",
-    "vue-template-compiler": "^2.5.16",
     "is-plain-object": "^2.0.4",
-    "vue": "^2.5.16"
+    "lint-staged": "^7.2.0",
+    "vue": "^2.5.16",
+    "vue-template-compiler": "^2.5.16"
   },
   "eslintConfig": {
     "root": true,
@@ -100,7 +100,6 @@
     "node": ">=6"
   },
   "peerDependencies": {
-    "is-plain-object": "^2",
     "vue": "^2"
   }
 }

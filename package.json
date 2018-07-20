@@ -1,6 +1,6 @@
 {
   "name": "vue-connect",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/connect/index.js",
   "description": "Vue 2.x connect.",
   "repository": {
@@ -100,6 +100,6 @@
     "node": ">=6"
   },
   "peerDependencies": {
-    "vue": "^2.5.16"
+    "vue": "~2"
   }
 }

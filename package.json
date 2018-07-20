@@ -1,16 +1,20 @@
 {
   "name": "vue-connect",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "main": "src/connect/index.js",
+  "description": "Vue 2.x connect.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-okina/vue-connect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/k-okina/vue-connect/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
-  },
-  "dependencies": {
-    "is-plain-object": "^2.0.4",
-    "vue": "^2.5.16"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",
@@ -22,7 +26,9 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
     "lint-staged": "^7.2.0",
-    "vue-template-compiler": "^2.5.16"
+    "vue-template-compiler": "^2.5.16",
+    "is-plain-object": "^2.0.4",
+    "vue": "^2.5.16"
   },
   "eslintConfig": {
     "root": true,
@@ -82,5 +88,19 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue-connect",
+    "vue-container",
+    "connect"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "peerDependencies": {
+    "is-plain-object": "^2",
+    "vue": "^2"
   }
 }

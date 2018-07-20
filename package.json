@@ -1,6 +1,6 @@
 {
   "name": "vue-connect",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "src/connect/index.js",
   "description": "Vue 2.x connect.",
   "repository": {

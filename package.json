@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "is-plain-object": "^2.0.4",
     "vue": "^2.5.16"
   },
   "devDependencies": {
